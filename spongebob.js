@@ -11,7 +11,7 @@ class Spongebob {
 
     update(){
         this.y += this.speed * this.game.clockTick;
-        if (this.y > 1024) this.y = 0;
+        if (this.y > 800) this.y = 0;
     };
 
     draw(ctx) {
